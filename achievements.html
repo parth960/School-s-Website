@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="achievements.html">ACHIEVEMENTS</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>XYZ Epsilon </h1>
+</section>
+
+<!--------bog page content-------->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/Principal.jpg">
+            <h2>Principal's Message</h2>
+            <p>Our school aims to form an auxiliary and inclusive setting wherever talented and gifted students
+                are inspired to explore their potential and attain their personal best all told aspects of faculty life.
+                Students are challenged and engaged through authentic learning opportunities that inspire them
+                to develop creativity, confidence and resilience to become freelance and moral life-long
+                learners.</p>
+                <br>
+                <p>We offer a broad course of study and a spread of opportunities for all our women to attain
+                excellence in tutorial, creative, social, cultural, sporting and community endeavours. we tend to
+                price cooperative learning, positive relationships and building capability amongst our students to
+                effectively enable them to have interaction within the world of the long run, wherever drawback
+                determination, evaluating, operating in groups, communication, making and innovating don't
+                seem to be solely valued ideas, however expected skills, attributes and capabilities.</p>
+                <br>
+                <p>We support the individual upbeat of our women and supply a faculty setting that permits each
+                student to thrive as they work towards achieving their personal best performance. We tend to
+                set high expectations for our women and push to safeguard positive emotions across our faculty
+                community. We tend to be partners in learning with our students and ask to deepen their
+                information, give enriching and innovative learning experiences, whereas conjointly gently
+                urging our students out of their temperature to aim for new challenges.
+            </p>
+            <br>
+            <br>
+            <img src="images/chairman.jpg">
+            <h2>Chairman's Message</h2>
+            <p>Education is regarding wakening –Awakening to the facility and sweetness that lies inside all
+                people.To my mind education as a concept, isn't almost about bricks ,mortar and concrete , however
+                regarding building character , enriching minds and regarding varied experiences that last a
+                lifespan.
+                <br>
+                <p>I expect sincere cooperation from elders and guardians for the attainment of the school's
+                    objectives.</p>
+                <br>
+                <p>At our school there is a commitment to an integrated curriculum approach through inquiry
+                    learning. The development of higher order thinking skills, risk taking ,adaptability, cooperation,
+                    and communication techniques are fostered.</p>
+                <br>
+                <p>We provide a platform to students to showcase their inborn talents. We also take utmost care in
+                    molding our children as responsible global citizens.</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="visit-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                </div>
+        </div>
+        <!-------
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div> ----------->
+    </div>
+</section>
+
+<!--------Footer--------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+        making it over 2000 years old. Richard McClintock,<br>Latin professor at 
+        Hampden-Sydney College in Virginia, looked up one of the more obscure from a 
+        Lorem Ipsum passage.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/Divine-Mata-Gujri-Public-School-Sadiq-582546075471408/" target="_blank">
+                <i class="fa fa-facebook"></i>
+                </a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Parth</p>
+</section>
+
+<!------Java Script------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
